@@ -1,40 +1,40 @@
-print("Hello, World!")
+# print("Hello, World!")
 
 
-print("*" * 10)
+# print("*" * 10)
 
 # Types of variables
 # Strings
 
-course = "Python Programming"
-print (len(course))
-print(course[0])
-print(course[-3])
-print(course[0:6])
+# course = "Python Programming"
+# print (len(course))
+# print(course[0])
+# print(course[-3])
+# print(course[0:6])
 
-print (course.upper())
-print (course.lower())
-print (course.title())
-print (course.strip())
-print (course.find("P"))
-print (course.replace("P", "J"))
-print ("python" in course)
+# print (course.upper())
+# print (course.lower())
+# print (course.title())
+# print (course.strip())
+# print (course.find("P"))
+# print (course.replace("P", "J"))
+# print ("python" in course)
 
 # numbers
 
-print(10 + 3)  # addition
-print(10 - 3)  # subtraction
-print(10 * 3)  # multiplication
-print(10 / 3)  # division
-print(10 // 3)  # floor division
-print(10 % 3)  # modulus
-print(10 ** 3)  # exponentiation
+# print(10 + 3)  # addition
+# print(10 - 3)  # subtraction
+# print(10 * 3)  # multiplication
+# print(10 / 3)  # division
+# print(10 // 3)  # floor division
+# print(10 % 3)  # modulus
+# print(10 ** 3)  # exponentiation
 
 
 # operator precedence
-x = 10
-x += 3  # x = x + 3
-print(x)
+# x = 10
+# x += 3  # x = x + 3
+# print(x)
 
 # working with numbers
 
@@ -44,11 +44,42 @@ print(pow(2, 3))  # IT RETURNS THE VALUE OF 2 TO THE POWER OF 3
 print(max(2, 3, 4))  # IT RETURNS THE MAXIMUM VALUE AMONG THE ARGUMENTS
 print(min(2, 3, 4))  # IT RETURNS THE MINIMUM VALUE AMONG THE ARGUMENTS
 
-x = input("x: ")
-y = int(x) + 1  # IT CONVERTS THE STRING INPUT TO AN INTEGER AND THEN ADDS 1 TO IT
-print(f"x: {x}, y: {y}")
+# x = input("x: ")
+# y = int(x) + 1  # IT CONVERTS THE STRING INPUT TO AN INTEGER AND THEN ADDS 1 TO IT
+# print(f"x: {x}, y: {y}")
+
+# x = float(input("x: "))
+# y = x + 1  # IT CONVERTS THE STRING INPUT TO A FLOAT AND THEN ADDS 1 TO IT
+# print(f"x: {x}, y: {y}")
 
 # int(x) #IT CONVERTS THE STRING x TO AN INTEGER
 # float(x) #IT CONVERTS THE STRING x TO A FLOAT
 # bool(x) #IT CONVERTS THE STRING x TO A BOOLEAN
 # str(x) #IT CONVERTS THE INTEGER x TO A STRING
+
+# Fundementals of programming
+# operators
+# arithmetic operators: +, -, *, /, //, %, **
+# comparison operators: ==, !=, >, <, >=, <=
+
+
+
+# conditional statements
+temperature = 35
+if temperature > 30:
+    print("It's a hot day")
+elif temperature > 20:
+    print("It's a nice day")
+else:
+    print("It's a cold day")
+
+
+age = 16
+if age >= 18:
+ message = "You are an adult"
+ print(message)
+else:
+    message = "You are a child"
+    print(message)
+
+# logical operators: and, or, not
