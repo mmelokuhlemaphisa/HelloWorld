@@ -29,3 +29,17 @@ print(10 / 3)  # division
 print(10 // 3)  # floor division
 print(10 % 3)  # modulus
 print(10 ** 3)  # exponentiation
+
+
+# operator precedence
+x = 10
+x += 3  # x = x + 3
+print(x)
+
+# working with numbers
+
+print(round(2.9))
+print(abs(-2.9))  # IT RETURNS THE ABSOLUTE VALUE OF A NUMBER
+print(pow(2, 3))  # IT RETURNS THE VALUE OF 2 TO THE POWER OF 3
+print(max(2, 3, 4))  # IT RETURNS THE MAXIMUM VALUE AMONG THE ARGUMENTS
+print(min(2, 3, 4))  # IT RETURNS THE MINIMUM VALUE AMONG THE ARGUMENTS
