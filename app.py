@@ -20,3 +20,12 @@ print (course.find("P"))
 print (course.replace("P", "J"))
 print ("python" in course)
 
+# numbers
+
+print(10 + 3)  # addition
+print(10 - 3)  # subtraction
+print(10 * 3)  # multiplication
+print(10 / 3)  # division
+print(10 // 3)  # floor division
+print(10 % 3)  # modulus
+print(10 ** 3)  # exponentiation
